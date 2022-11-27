@@ -29,3 +29,10 @@ mason_lspconfig.setup({
   automatic_installation = true, -- not the same as ensure_installed
 })
 
+mason_null_ls.setup({
+  ensure_installed = {
+    "stylelua",
+  },
+  -- auto-install configured servers (with lspconfig)
+  automatic_installation = true, -- not the same as ensure_installed
+})
