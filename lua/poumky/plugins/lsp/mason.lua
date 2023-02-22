@@ -23,7 +23,8 @@ mason_lspconfig.setup({
   -- list of servers for mason to install
   ensure_installed = {
     "jedi_language_server",
-    "sumneko_lua",
+    "clangd",
+    "lua_ls",
   },
   -- auto-install configured servers (with lspconfig)
   automatic_installation = true, -- not the same as ensure_installed

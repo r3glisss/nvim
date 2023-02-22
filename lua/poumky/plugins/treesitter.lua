@@ -16,6 +16,8 @@ treesitter.setup({
 	autotag = { enable = true },
 	-- ensure these language parsers are installed
 	ensure_installed = {
+    "c",
+    "cpp",
 		"python",
 		"json",
 		"markdown",

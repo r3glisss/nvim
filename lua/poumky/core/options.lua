@@ -38,3 +38,5 @@ opt.splitbelow  = true
 -- consider dash as part of the word
 opt.iskeyword:append("-")
 
+-- fix the comments hightlighting color
+
